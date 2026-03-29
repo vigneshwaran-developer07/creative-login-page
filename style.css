@@ -1,0 +1,115 @@
+
+
+body{
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#1e2a38;
+    font-family:Arial;
+}
+
+/* Circle Animation */
+.circle{
+    position:absolute;
+    width:400px;
+    height:400px;
+    border-radius:50%;
+}
+
+.circle span{
+    position:absolute;
+    width:6px;
+    height:25px;
+    background:#3cc7c7;
+    left:50%;
+    top:98%;
+    transform-origin:0 -180px;
+    border-radius:5px;
+    animation:fade 1.5s linear infinite;
+}
+
+.circle span:nth-child(1){transform:rotate(0deg) translate(-50%,-50%);}
+.circle span:nth-child(2){transform:rotate(10deg) translate(-50%,-50%);}
+.circle span:nth-child(3){transform:rotate(20deg) translate(-50%,-50%);}
+.circle span:nth-child(4){transform:rotate(30deg) translate(-50%,-50%);}
+.circle span:nth-child(5){transform:rotate(40deg) translate(-50%,-50%);}
+.circle span:nth-child(6){transform:rotate(50deg) translate(-50%,-50%);}
+.circle span:nth-child(7){transform:rotate(60deg) translate(-50%,-50%);}
+.circle span:nth-child(8){transform:rotate(70deg) translate(-50%,-50%);}
+.circle span:nth-child(9){transform:rotate(80deg) translate(-50%,-50%);}
+.circle span:nth-child(10){transform:rotate(90deg) translate(-50%,-50%);}
+.circle span:nth-child(11){transform:rotate(100deg) translate(-50%,-50%);}
+.circle span:nth-child(12){transform:rotate(110deg) translate(-50%,-50%);}
+.circle span:nth-child(13){transform:rotate(120deg) translate(-50%,-50%);}
+.circle span:nth-child(14){transform:rotate(130deg) translate(-50%,-50%);}
+.circle span:nth-child(15){transform:rotate(140deg) translate(-50%,-50%);}
+.circle span:nth-child(16){transform:rotate(150deg) translate(-50%,-50%);}
+.circle span:nth-child(17){transform:rotate(160deg) translate(-50%,-50%);}
+.circle span:nth-child(18){transform:rotate(170deg) translate(-50%,-50%);}
+.circle span:nth-child(19){transform:rotate(180deg) translate(-50%,-50%);}
+.circle span:nth-child(20){transform:rotate(190deg) translate(-50%,-50%);}
+.circle span:nth-child(21){transform:rotate(200deg) translate(-50%,-50%);}
+.circle span:nth-child(22){transform:rotate(210deg) translate(-50%,-50%);}
+.circle span:nth-child(23){transform:rotate(220deg) translate(-50%,-50%);}
+.circle span:nth-child(24){transform:rotate(230deg) translate(-50%,-50%);}
+.circle span:nth-child(25){transform:rotate(240deg) translate(-50%,-50%);}
+.circle span:nth-child(26){transform:rotate(250deg) translate(-50%,-50%);}
+.circle span:nth-child(27){transform:rotate(260deg) translate(-50%,-50%);}
+.circle span:nth-child(28){transform:rotate(270deg) translate(-50%,-50%);}
+.circle span:nth-child(29){transform:rotate(280deg) translate(-50%,-50%);}
+.circle span:nth-child(30){transform:rotate(290deg) translate(-50%,-50%);}
+.circle span:nth-child(31){transform:rotate(300deg) translate(-50%,-50%);}
+.circle span:nth-child(32){transform:rotate(310deg) translate(-50%,-50%);}
+.circle span:nth-child(33){transform:rotate(320deg) translate(-50%,-50%);}
+.circle span:nth-child(34){transform:rotate(330deg) translate(-50%,-50%);}
+.circle span:nth-child(35){transform:rotate(340deg) translate(-50%,-50%);}
+.circle span:nth-child(36){transform:rotate(350deg) translate(-50%,-50%);}
+
+@keyframes rotate{
+    0%{opacity:1;}
+    100%{opacity:0.1;}
+}
+
+/* Login Box */
+
+.login-box{
+    position:relative;
+    width:280px;
+    padding:40px;
+    text-align:center;
+    z-index:1;
+}
+
+.login-box h2{
+    color:#36d1dc;
+}
+
+.login-box input{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+    border:none;
+    border-radius:20px;
+    background:#2f3e52;
+    color:white;
+}
+
+.login-box button{
+    width:100%;
+    padding:10px;
+    border:none;
+    border-radius:20px;
+    background:#36d1dc;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+}
+
+.login-box a{
+    color:#36d1dc;
+    font-size:14px;
+    text-decoration:none;
+}
+
